@@ -7,8 +7,10 @@ Group: 		System/Internationalization
 Source: 	http://downloads.sourceforge.net/tegaki/%name-%version.tar.gz
 URL: 		http://tegaki.sourceforge.net/
 Buildroot: 	%{_tmppath}/%{name}-%{version}-buildroot
+%py_requires -d
 BuildArch:	noarch
 Requires:	zinnia >= 0.02
+Requires:	tegaki-l10n = %version
 
 %description
 Tegaki is an ongoing project which aims to develop a free and open-source
