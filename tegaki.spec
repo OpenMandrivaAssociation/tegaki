@@ -1,7 +1,7 @@
 Summary: 	Chinese and Japanese Handwriting Recognition
 Name: 		tegaki
 Version: 	0.1
-Release: 	%mkrel 1
+Release: 	%mkrel 2
 License: 	GPLv2+
 Group: 		System/Internationalization
 Source: 	http://downloads.sourceforge.net/tegaki/%name-%version.tar.gz
