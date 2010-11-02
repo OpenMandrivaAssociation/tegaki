@@ -1,7 +1,7 @@
 Summary: 	Chinese and Japanese Handwriting Recognition
 Name: 		tegaki
 Version: 	0.3.1
-Release: 	%mkrel 2
+Release: 	%mkrel 3
 License: 	GPLv2+
 Group: 		System/Internationalization
 Source: 	http://www.tegaki.org/releases/%version/tegaki-python-%version.tar.gz
@@ -10,6 +10,7 @@ Buildroot: 	%{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires:	python-setuptools
 BuildArch:	noarch
 Requires:	tegaki-engine
+Requires:	tegaki-models
 
 %description
 Tegaki is an ongoing project which aims to develop a free and open-source
