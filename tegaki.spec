@@ -34,3 +34,36 @@ rm -rf %{buildroot}
 %files
 %defattr (-,root,root)
 %{py_puresitedir}/tegaki*
+
+
+%changelog
+* Tue Nov 02 2010 Funda Wang <fwang@mandriva.org> 0.3.1-3mdv2011.0
++ Revision: 592330
+- req models
+
+* Tue Nov 02 2010 Funda Wang <fwang@mandriva.org> 0.3.1-2mdv2011.0
++ Revision: 592287
+- should req on engine
+
+* Tue Nov 02 2010 Funda Wang <fwang@mandriva.org> 0.3.1-1mdv2011.0
++ Revision: 592248
+- new version 0.3.1
+
+* Tue Nov 02 2010 Michael Scherer <misc@mandriva.org> 0.1-4mdv2011.0
++ Revision: 592164
+- rebuild for python 2.7
+
+* Mon Mar 29 2010 Antoine Ginies <aginies@mandriva.com> 0.1-3mdv2010.1
++ Revision: 528772
+- bump release (deps pb : tegaki-l10n[== 0.1])
+
+* Sun Sep 20 2009 Thierry Vignaud <tv@mandriva.org> 0.1-2mdv2010.1
++ Revision: 445415
+- rebuild
+
+* Sun Feb 15 2009 Funda Wang <fwang@mandriva.org> 0.1-1mdv2009.1
++ Revision: 340630
+- BR python
+- import tegaki
+
+
