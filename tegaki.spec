@@ -5,7 +5,7 @@ Release: 	4
 License: 	GPLv2+
 Group: 		System/Internationalization
 Source: 	http://www.tegaki.org/releases/%version/tegaki-python-%version.tar.gz
-URL: 		http://www.tegaki.org
+URL: 		https://www.tegaki.org
 Buildroot: 	%{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires:	python-setuptools
 BuildArch:	noarch
